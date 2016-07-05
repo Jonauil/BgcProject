@@ -183,19 +183,19 @@ export default class Home extends Component {
 				<View style={styles.box} >
 					<View style={styles.box_Item2} >
 						<Image style={styles.box_Img} source={require('../img/menu_icon/icon_menu_shouye@2x.png')} />
-						<Text style={styles.box_Text} >首页</Text>
+						<Text style={styles.menu_icon_text} >首页</Text>
 					</View>
 					<View style={styles.box_Item2} >
 						<Image style={styles.box_Img} source={require('../img/menu_icon/icon_menu_biaodi@2x.png')} />
-						<Text style={styles.box_Text} >标的</Text>
+						<Text style={styles.menu_icon_text} >标的</Text>
 					</View>
 					<View style={styles.box_Item2} >
 						<Image style={styles.box_Img} source={require('../img/menu_icon/icon_menu_xiangmu@2x.png')} />
-						<Text style={styles.box_Text} >项目</Text>
+						<Text style={styles.menu_icon_text} >项目</Text>
 					</View>
 					<View style={styles.box_Item2} >
 						<Image style={styles.box_Img} source={require('../img/menu_icon/icon_menu_gengduo@2x.png')} />
-						<Text style={styles.box_Text} >我的</Text>
+						<Text style={styles.menu_icon_text} >我的</Text>
 					</View>
 				</View>
 		</View>
@@ -289,5 +289,8 @@ const styles = StyleSheet.create({
 	box_Text: {
 		fontSize: 12,
 		color: '#5c6578',
+	},menu_icon_text:{
+		color:'#95a0aa',
+		fontSize:10,
 	}
 });
