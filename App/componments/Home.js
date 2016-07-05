@@ -18,15 +18,16 @@ export default class Home extends Component {
 		const title_data = HOME_DATA[0];
 		return (
 			<View style={styles.container}>
-		<View style={styles.header}>
-        <Text style={styles.title}>{title_data.title}</Text>
-        </View>
+			<View style={styles.header}>
+			<Text style={styles.title}>{title_data.title}</Text>
+			</View>
 
          <ScrollView contentContainerStyle={styles.contentContainer} horizontal={false}>
 
 		<View style = {styles.fabushishibiao} >
-		<Image style={styles.icon_title_img} source={require('../img/icon_tit_shishibiao@3x.png')} /> 
-		< Text style = {styles.tit_text} > 发布实时标 </Text>
+			<Image style={styles.icon_title_img} source={require('../img/icon_tit_shishibiao@3x.png')} />
+			<Text style = {styles.tit_text} > 发布实时标 </Text>
+			<Image style={styles.icon_title_jt} source={require('../img/icon_tit_youjt@3x.png')} />
 		</View >
 
 		< View style = {styles.box} >
@@ -71,96 +72,100 @@ export default class Home extends Component {
 		</View >
 		
 		<View style={styles.fabuyuyuebiao}>
-		<Image style={styles.icon_title_img} source={require('../img/icon_tit_yuyuebiao@3x.png')} />
-		<Text style={styles.tit_text}>发布预约标</Text>
+			<Image style={styles.icon_title_img} source={require('../img/icon_tit_yuyuebiao@3x.png')} />
+			<Text style={styles.tit_text}>发布预约标</Text>
+			<Image style={styles.icon_title_jt} source={require('../img/icon_tit_youjt@3x.png')} />
 		</View>
 
 		<View style={styles.box}>
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_shineifb@3x.png')} />
-		<Text style={styles.box_Text} >室内分布</Text>
-		</View>
-		<View style = {styles.box_Item} >
-		<Image style={styles.box_Img} source={require('../img/icon_xiaoqukd@3x.png')} /> 
-		<Text style={styles.box_Text}>小区宽带</Text> 
-		</View> 
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_louyukd@3x.png')} /> 
-		<Text style={styles.box_Text}>楼宇宽带</Text>
-		</View>
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_hongzhan@3x.png')} />
-		<Text style={styles.box_Text}>宏站</Text>
-		</View>
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_shineifb@3x.png')} />
+			<Text style={styles.box_Text} >室内分布</Text>
+			</View>
+			<View style = {styles.box_Item} >
+			<Image style={styles.box_Img} source={require('../img/icon_xiaoqukd@3x.png')} />
+			<Text style={styles.box_Text}>小区宽带</Text>
+			</View>
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_louyukd@3x.png')} />
+			<Text style={styles.box_Text}>楼宇宽带</Text>
+			</View>
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_hongzhan@3x.png')} />
+			<Text style={styles.box_Text}>宏站</Text>
+			</View>
 		</View>
 
 		<View style={styles.box}>
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_zhbuxian@3x.png')} />
-		<Text style={styles.box_Text} >综合布线</Text>
-		</View>
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_ganzhan@3x.png')} />
-		<Text style={styles.box_Text}>杆站</Text>
-		</View>
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_liangaihuan@3x.png')} />
-		<Text style={styles.box_Text}>链改环</Text>
-		</View>
-		<View style = {styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_more@3x.png')} /> 
-		<Text style = {styles.box_Text}>更多</Text>   
-		</View > 
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_zhbuxian@3x.png')} />
+			<Text style={styles.box_Text} >综合布线</Text>
+			</View>
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_ganzhan@3x.png')} />
+			<Text style={styles.box_Text}>杆站</Text>
+			</View>
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_liangaihuan@3x.png')} />
+			<Text style={styles.box_Text}>链改环</Text>
+			</View>
+			<View style = {styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_more@3x.png')} />
+			<Text style = {styles.box_Text}>更多</Text>
+			</View >
 		</View>
 
 		<View style={styles.fabuyuyuebiao} >
-		<Image style={styles.icon_title_img} source={require('../img/icon_tit_fuwubiao@3x.png')} />
-		<Text style={styles.tit_text} >发布服务标</Text>
+			<Image style={styles.icon_title_img} source={require('../img/icon_tit_fuwubiao@3x.png')} />
+			<Text style={styles.tit_text} >发布服务标</Text>
+			<Image style={styles.icon_title_jt} source={require('../img/icon_tit_youjt@3x.png')} />
 		</View>
 		
 		<View style={styles.box} >
 
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_xietiao@3x.png')} />
-		<Text style={styles.box_Text}>协调</Text>
-		</View>
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_banzheng@3x.png')} />
-		<Text style={styles.box_Text}>办证</Text>
-		</View>
-		<View style={styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_xunzu@3x.png')} />
-		<Text style={styles.box_Text}>寻租</Text>
-		</View>
-		<View style = {styles.box_Item}>
-		<Image style={styles.box_Img} source={require('../img/icon_more@3x.png')} /> 
-		<Text style = {styles.box_Text}>更多</Text>  
-		</View > 
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_xietiao@3x.png')} />
+			<Text style={styles.box_Text}>协调</Text>
+			</View>
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_banzheng@3x.png')} />
+			<Text style={styles.box_Text}>办证</Text>
+			</View>
+			<View style={styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_xunzu@3x.png')} />
+			<Text style={styles.box_Text}>寻租</Text>
+			</View>
+			<View style = {styles.box_Item}>
+			<Image style={styles.box_Img} source={require('../img/icon_more@3x.png')} />
+			<Text style = {styles.box_Text}>更多</Text>
+			</View >
 		</View>
 
-		<View style={styles.fabuyuyuebiao} >
-		<Image style={styles.icon_title_img} source={require('../img/icon_tit_biaodi@3x.png')} />
-		<Text style={styles.tit_text} >标的</Text>
+		<View style={styles.fabuyuyuebiao}>
+			<Image style={styles.icon_title_img} source={require('../img/icon_tit_biaodi@3x.png')} />
+			<Text style={styles.tit_text} >标的</Text>
+			<Image style={styles.icon_title_jt2} source={require('../img/icon_tit_youjt@2x.png')} />
 		</View>
 
 		<View style={styles.box} >
-		<View style={styles.box_Item2}>
-		<Image style={styles.box_Img} source={require('../img/icon_jingbiaozhong@3x.png')} />
-		<Text style={styles.box_Text}>可投标</Text>
-		</View>
-		<View style={styles.box_Item2}>
-		<Image style={styles.box_Img} source={require('../img/icon_yijiebiao@3x.png')} />
-		<Text style={styles.box_Text}>已投标</Text>
-		</View>
-		<View style={styles.box_Item2}>
-		<Image style={styles.box_Img} source={require('../img/icon_yizhongbiao@3x.png')} />
-		<Text style={styles.box_Text}>已中标</Text>
-		</View>
+			<View style={styles.box_Item2}>
+			<Image style={styles.box_Img} source={require('../img/icon_jingbiaozhong@3x.png')} />
+			<Text style={styles.box_Text}>可投标</Text>
+			</View>
+			<View style={styles.box_Item2}>
+			<Image style={styles.box_Img} source={require('../img/icon_yijiebiao@3x.png')} />
+			<Text style={styles.box_Text}>已投标</Text>
+			</View>
+			<View style={styles.box_Item2}>
+			<Image style={styles.box_Img} source={require('../img/icon_yizhongbiao@3x.png')} />
+			<Text style={styles.box_Text}>已中标</Text>
+			</View>
 		</View>
 
 		<View style={styles.fabuyuyuebiao}>
 			<Image style={styles.icon_title_img} source={require('../img/icon_tit_xiangmu@3x.png')} />
 			<Text style={styles.box_Text} >项目</Text>
+			<Image style={styles.icon_title_jt2} source={require('../img/icon_tit_youjt@2x.png')} />
 		</View>
 
 			<View style={styles.box} >
@@ -292,5 +297,15 @@ const styles = StyleSheet.create({
 	},menu_icon_text:{
 		color:'#95a0aa',
 		fontSize:10,
-	}
+	},icon_title_jt:{
+		width:20,
+		height:20,
+		marginLeft:240,
+		marginRight: 10,
+	},icon_title_jt2:{
+		width:20,
+		height:20,
+		marginLeft:280,
+		marginRight: 10,
+	},
 });
